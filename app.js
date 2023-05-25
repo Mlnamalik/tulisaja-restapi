@@ -17,7 +17,7 @@ const postRoutes = require('./routes/post')
 app.use('/post', postRoutes)
 
 app.get('/', (req, res) => {
-    res.send('Hello World gaesss!')
+    res.send('Hello World hahahahahaha')
 })
 
 mongoose.connect(process.env.DB_CONNECTION, {
